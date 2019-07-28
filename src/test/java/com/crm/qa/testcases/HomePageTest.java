@@ -25,7 +25,7 @@ public class HomePageTest extends TestBase{
 	@Test(priority=1)
 	public void HomePagetitleTest(){
 		String title=homePage.validateHomepageTitle();
-		Assert.assertEquals(title, "PHPTRAVELS | Travel Technology Partner");
+		Assert.assertEquals(title, "Facebook – log in or sign up");
 	
 		
 	}

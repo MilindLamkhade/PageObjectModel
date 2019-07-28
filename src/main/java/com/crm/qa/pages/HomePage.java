@@ -8,7 +8,7 @@ import com.crm.qa.base.TestBase;
 
 public class HomePage extends TestBase {
 
-	@FindBy(xpath="//*[@id='li_myaccount']//*[@aria-expanded='false']")
+	/*@FindBy(xpath="//*[@id='li_myaccount']//*[@aria-expanded='false']")
 	WebElement MyAccountLink;
 	
 	@FindBy(xpath="//*[@id=\"li_myaccount\"]/ul/li[1]/a")
@@ -18,7 +18,7 @@ public class HomePage extends TestBase {
 	public HomePage() {
 		PageFactory.initElements(driver, this);
 	}
-	
+	*/
 	//Actions
 	public String validateHomepageTitle()
 	{
@@ -26,7 +26,7 @@ public class HomePage extends TestBase {
 	}
 
 	
-	public void myAccount() {
+	/*public void myAccount() {
 		MyAccountLink.click();
 		
 	}
@@ -34,9 +34,9 @@ public class HomePage extends TestBase {
 	
 	public LoginPage loginLink() {
 		LoginLink.click();
-		return new LoginPage();
+		return new LoginPage();*/
 		
 	}
 	
 	
-}
+
